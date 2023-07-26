@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    box-sizing: border-box;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    word-break: keep-all;
+
+}
+.mainSection {
+    min-height: 100vh;
+    background-image: url(image/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.maintext {
+    max-width: 600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+}
+.maintext > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mainSectionTitle {
+    font-size: 32px;
+    font-weight: 700;
+}
+.maintext > img {
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.textBoard {
+    background-color: rgba(0, 0, 0, 0.651);
+    border-radius: 2px;
+    border: 2px solid white;
+    padding: 30px;
+    color: white;
+    font-size: 18px;
+}
+.mainButtonBox {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.mainButtonBox > button {
+    width: 100%;
+    max-width: 150px;
+    min-width: 100px;
+    font-size: 18px;
+    height: 50px;
+    background-color: transparent;
+    background-image: url(image/button.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    box-shadow: 1px 1px 1px saddlebrown;
+}
+.mainButtonBox > button:hover {
+    background-image: url(image/buttonhover.png);
+    color: white;
+    transition: 0.5s;
+}
+
+@keyframes color3 {
+    0% {
+        color: transparent;
+        
+    }
+    100% {
+        color: white;
+    }
+}
+.ani, .ani2 {
+    animation-name: color3;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+
+.공유하기 {
+    text-align: center;
+}
+.공유하기text {
+    font-size: 24px;
+    color: white;
+}
+.공유하기버튼박스 > button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+.공유하기버튼박스 > button:hover {
+    background-color: black;
+    color: white;
+}

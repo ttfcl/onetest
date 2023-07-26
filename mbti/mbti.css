@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    box-sizing: border-box;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    word-break: keep-all;
+
+}
+.mainSection {
+    min-height: 100vh;
+    background-image: url(image/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    padding-bottom: 50px;
+}
+.maintext {
+    max-width: 600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    /* height: 100vh; */
+}
+.maintext > .img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.mainSectionTitle {
+    font-size: 32px;
+    font-weight: 700;
+}
+.maintext > .img {
+    width: 100%;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textBoard {
+    background-color: white;
+    background-position: center;
+    border-radius: 3rem;
+    /* border: 5px solid rgb(133, 29, 29); */
+    box-shadow: 7px 7px 0px rgb(255, 0, 234) ;
+    padding: 30px;
+    color: black;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "";
+}
+
+
+
+.mainButtonBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.mainButtonBox > button {
+    width: 100%;
+    font-size: 18px;
+    min-height: 100px;
+    border-radius: 3rem;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.mainButtonBox > button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+@keyframes color3 {
+    0% {
+        color: transparent;
+        
+    }
+    100% {
+        color: white;
+    }
+}
+.ani, .ani2 {
+    animation-name: color3;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+.hide {
+    display: none;
+}
+

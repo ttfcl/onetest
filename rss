@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>원테스트 - 각 종 테스트 및 여러 유용한 기능 모음 플렛폼</title>
+<link>https://onetest.pe.kr/</link>
+<description>원테스트 - 각 종 테스트 및 여러 유용한 기능 모음 플렛폼</description>
+<item>
+<title>mbti 테스트</title>
+<link>https://onetest.pe.kr/mbti/index.html</link>
+<guid>https://onetest.pe.kr/mbti/index.html</guid>
+<pubDate>Sat, 22 jul 2023 21:20:00 KST</pubDate>
+<description>성격유형 검사로 약 20개의 질문을 통해 성격유형을 분류하고 어느 성격과 잘 맞는지에 대한 간단한 설명을 확인할 수 있습니다.</description>
+</item>
+<item>
+<title>납음오행 남녀궁합 테스트</title>
+<link>https://onetest.pe.kr/properties/index.html</link>
+<guid>https://onetest.pe.kr/properties/index.html</guid>
+<pubDate>Tus, 18 jul 2023 21:20:00 KST</pubDate>
+<description>화, 수, 목, 금, 토 자연의 5가지 속성과 자연현상을 이용하여 서로의 궁합이 얼마나 맞는지 확인할 수 있습니다.</description>
+</item>
+<item>
+<title>과거, 현재, 미래 타로 운세</title>
+<link>https://onetest.pe.kr/taro/index.html</link>
+<guid>https://onetest.pe.kr/taro/index.html</guid>
+<pubDate>Sat, 15 jul 2023 21:20:00 KST</pubDate>
+<description>3장의 카드를 선택하여 카드의 순서에 따라 자신의 운세를 알 수 있습니다.</description>
+</item>
+<item>
+<title>연애, 금전, 건강, 직업 타로 운세</title>
+<link>https://onetest.pe.kr/tarotest/index.html</link>
+<guid>https://onetest.pe.kr/tarotest/index.html</guid>
+<pubDate>Wen, 12 jul 2023 21:20:00 KST</pubDate>
+<description>4가지 중 하나 또는 여러가지를 선택해서 자신의 운세를 확인할 수 있습니다.</description>
+</item>
+</channel>
+</rss>
